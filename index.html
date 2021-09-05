@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="weather">
+        <form id="search-form">
+            <input type="search">
+            <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+        </form>
+
+        <div class="date-time">
+            <div class="time">
+                <span class="hour"></span> :
+                <span class="minute"></span>
+                <span class="period"></span>
+            </div>
+            <div class="day-month">
+                <span class="day"></span>
+                <span class="month"></span>
+            </div>
+        </div>
+
+        <div class="weather-city">
+            <div>
+                <h1></h1>
+                <img id="weather-icon" />
+            </div>
+            <p></p>
+        </div>
+
+        <div class="weather-temp">
+            <p>
+                <span></span><sup>&#8451;</sup>
+            </p>
+            <p>
+                <span id="feels-like">feels like</span><sup>&#8451;</sup>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="forcast">
+        
+
+    <div class="weather-1">
+        <div class="iconBox">
+            <img class="weather-icon1" alt="">
+            <p class="weather-description1"></p>
+        </div>
+       
+        <div class="temp">
+            <p class="current-temp-day1"></p>
+            <p class="current-temp-night1"></p>
+            <p class="feels-like1"></p>
+            
+        </div>
+    </div>
+
+    <div class="weather-1">
+        <div class="iconBox">
+            <img class="weather-icon2" alt="">
+            <p class="weather-description2"></p>
+        </div>
+       
+        <div class="temp">
+            <p class="current-temp-day2"></p>
+            <p class="current-temp-night2"></p>
+            <p class="feels-like2"></p>
+            
+        </div>
+    </div>
+
+    <div class="weather-1">
+        <div class="iconBox">
+            <img class="weather-icon3" alt="">
+            <p class="weather-description3"></p>
+        </div>
+       
+        <div class="temp">
+            <p class="current-temp-day3"></p>
+            <p class="current-temp-night3"></p>
+            <p class="feels-like3"></p>
+            
+        </div>
+    </div>
+
+
+</div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
